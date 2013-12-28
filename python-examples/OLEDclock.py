@@ -1,4 +1,4 @@
-# clock.py
+# OLEDclock.py
 
 # This program interfaces with one of Adafruit's OLED displays and a Raspberry Pi (over SPI). It displays the current 
 # date (Day, Month, Year) and then scrolls to the current time. The program waits for 2 seconds between scroll.
