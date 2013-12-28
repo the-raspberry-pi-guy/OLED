@@ -29,9 +29,9 @@ while True:
         text = time.strftime("%X")
         led.draw_text2(0,32+4,text,3)
         led.display()
-        time.sleep(5)
+        time.sleep(1)
     else:
-        time.sleep(5)
+        time.sleep(1)
 
     # vertically scroll to switch between buffers
     for i in range(0,32):
