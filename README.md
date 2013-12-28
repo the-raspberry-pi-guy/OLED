@@ -22,7 +22,11 @@ I can be reached at: theraspberrypiguy@gmail.com
 Thanks for watching and please consider dropping me a subscription on YouTube, or following me on Twitter!
 
 Matt
+
 The Raspberry Pi Guy
+
 www.youtube.com/theraspberrypiguy   < YouTube channel
+
 www.theraspberrypiguy.com           < Website (In progress still!)
+
 @RaspberryPiGuy1                    < Twitter
