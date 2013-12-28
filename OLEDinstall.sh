@@ -5,6 +5,7 @@
 sudo apt-get install git-core -y
 sudo apt-get install python-setuptools -y
 sudo apt-get install python-dev -y
+sudo apt-get install python-imaging
 git clone git://git.drogon.net/wiringPi
 cd wiringPi
 sudo ./build
