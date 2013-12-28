@@ -5,7 +5,7 @@ Hello there!
 
 Here is the code to automate the installation of py-gaugette and all of its dependencies. Py-gaugette adds many functions to the Raspberry Pi in terms of SPI use. This GitHub repo is for my YouTube tutorial here:
 
-The code and commands are intended for use with Adafruit's monochrome displays on the Raspberry Pi. These are small (1") black and white OLED displays that are available very cheaply and are perfect for everything from notifications to thumbnail images. In my tutorial I show you how to get them working!
+The code and commands are intended for use with Adafruit's monochrome displays with the Raspberry Pi. These are small (1") black and white OLED displays that are available very cheaply and are perfect for everything from notifications to thumbnail images. In my tutorial I show you how to get them working!
 
 You can buy them from Pimoroni if you are in the UK: http://shop.pimoroni.com/products/adafruit-monochrome-0-96-128x64-oled-graphic-display
 
