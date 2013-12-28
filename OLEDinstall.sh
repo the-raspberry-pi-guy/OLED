@@ -22,3 +22,6 @@ git clone https://github.com/guyc/py-gaugette.git
 cd py-gaugette
 sudo python setup.py install
 cd
+cd OLED/python-examples
+wget http://www.ralphmag.org/HS/penguins900x600.jpg # This downloads a picture of a penguin for one of the Python examples
+cd
