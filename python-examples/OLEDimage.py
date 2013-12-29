@@ -6,8 +6,8 @@
 # displayed on one of Adafruit's monochrome OLED displays. 
 
 # To run the code simply change directory to where it is saved and then type: sudo python OLEDimage.py <image name>
-# For example: sudo python OLEDimage.py penguins.jpg 
-# The image penguins.jpg is included in this repo as an example! Download any image that you want and simple change the
+# For example: sudo python OLEDimage.py penguins900x600.jpg 
+# The image penguins900x600.jpg is included in this repo as an example! Download any image that you want and simply change the
 # image name!
 
 # This program was created by The Raspberry Pi Guy
