@@ -23,7 +23,6 @@ led.begin()
 led.clear_display() # This clears the display but only when there is a led.display() as well!
 
 # led.draw_text2(x-axis, y-axis, whatyouwanttoprint, size) < Understand?
-
 # So led.drawtext2() prints simple text to the OLED display like so:
 
 text = 'Hello!'
