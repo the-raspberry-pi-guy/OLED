@@ -19,6 +19,7 @@ import sys
 from PIL import Image
 
 # Sets up our pins and creates variables for the size of the display. If using other size display you can easily change them.
+
 RESET_PIN = 15
 DC_PIN    = 16
 width = 128
@@ -27,7 +28,9 @@ height = 32
 led = gaugette.ssd1306.SSD1306(reset_pin=RESET_PIN, dc_pin=DC_PIN)
 led.begin()
 led.clear_display()
+
 # This bit converts our image into black and white and resizes it for the display
+
 image = Image.open(sys.argv[1])
 image_r = image.resize((width,height), Image.BICUBIC)
 image_bw = image_r.convert("1")
@@ -35,6 +38,7 @@ image_bw = image_r.convert("1")
 # Finally this bit maps each pixel (depending on whether it is black or white) to the display.
 # Note here we are not using the text command like in previous programs. We use led.draw_pixel:
 # That way we can individually address each pixel and tell it to be either on or off (on = white, off = black)
+
 for x in range(width):
         for y in range(height):
                 led.draw_pixel(x,y,bool(int(image_bw.getpixel((x,y)))))
