@@ -1,5 +1,5 @@
 # This is a shell script to automate the process of install py-gaugette. How to download and use this is all covered in 
-# my OLED tutorial that can be found here:
+# my OLED tutorial that can be found here: http://www.youtube.com/watch?v=BeBfpJnN9SE&feature=c4-overview&list=UUfY8sl5Q6VKndz0nLaGygPw
 # This was worked out by The Raspberry Pi Guy! www.youtube.com/theraspberrypiguy
 
 sudo apt-get install git-core -y
