@@ -14,7 +14,7 @@ cd WiringPi2-Python/
 sudo python setup.py install
 ./build.sh
 cd ..
-git clone https://github.com/doceme/py-spidev.git
+git clone https://github.com/doceme/py-spidev
 cd py-spidev
 sudo python setup.py install
 cd ..
