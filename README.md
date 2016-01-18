@@ -29,6 +29,6 @@ The Raspberry Pi Guy
 
 www.youtube.com/theraspberrypiguy   < YouTube channel
 
-www.theraspberrypiguy.com           < Website (In progress still!)
+www.theraspberrypiguy.com           < Website
 
 @RaspberryPiGuy1                    < Twitter
