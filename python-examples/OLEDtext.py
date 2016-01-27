@@ -13,9 +13,10 @@ import gaugette.ssd1306
 import time
 import sys
 
-# Setting some variables for our reset pin etc.
-RESET_PIN = 15
-DC_PIN    = 16
+# Define which GPIO pins the reset (RST) and DC signals on the OLED display are connected to on the
+# Raspberry Pi. The defined pin numbers must use the WiringPi pin numbering scheme.
+RESET_PIN = 15 # WiringPi pin 15 is GPIO14.
+DC_PIN = 16 # WiringPi pin 16 is GPIO15.
 
 # Very important... This lets py-gaugette 'know' what pins to use in order to reset the display
 led = gaugette.ssd1306.SSD1306(reset_pin=RESET_PIN, dc_pin=DC_PIN)
