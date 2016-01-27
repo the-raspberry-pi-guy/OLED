@@ -20,8 +20,10 @@ from PIL import Image
 
 # Sets up our pins and creates variables for the size of the display. If using other size display you can easily change them.
 
-RESET_PIN = 15
-DC_PIN    = 16
+# Define which GPIO pins the reset (RST) and DC signals on the OLED display are connected to on the
+# Raspberry Pi. The defined pin numbers must use the WiringPi pin numbering scheme.
+RESET_PIN = 15 # WiringPi pin 15 is GPIO14.
+DC_PIN = 16 # WiringPi pin 16 is GPIO15.
 width = 128
 height = 32
 
