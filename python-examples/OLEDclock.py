@@ -12,8 +12,6 @@ import gaugette.gpio
 import time
 import sys
 
-ROWS = 32
-
 # Define which GPIO pins the reset (RST) and DC signals on the OLED display are connected to on the
 # Raspberry Pi. The defined pin numbers must use the WiringPi pin numbering scheme.
 RESET_PIN = 15 # WiringPi pin 15 is GPIO14.
@@ -24,20 +22,16 @@ spi_device = 0
 gpio = gaugette.gpio.GPIO()
 spi = gaugette.spi.SPI(spi_bus, spi_device)
 
-print("init")
-led = gaugette.ssd1306.SSD1306(gpio, spi, reset_pin=RESET_PIN, dc_pin=DC_PIN, rows=ROWS, cols=128)
-print("begin")
+led = gaugette.ssd1306.SSD1306(gpio, spi, reset_pin=RESET_PIN, dc_pin=DC_PIN, rows=32, cols=128) # Change rows & cols values depending on your display dimensions.
 led.begin()
-print("clear")
 led.clear_display()
 led.display()
-
 led.invert_display()
 time.sleep(0.5)
 led.normal_display()
 time.sleep(0.5)
 
-offset = 32 # flips between 0 and 32 for double buffering
+offset = 0 # flips between 0 and 32 for double buffering
 
 # While loop has bulk of the code in it!
 
