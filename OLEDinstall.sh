@@ -1,12 +1,15 @@
 # This is a shell script to automate the process of install py-gaugette. How to download and use this is all covered in
 # my OLED tutorial that can be found here: http://www.youtube.com/watch?v=BeBfpJnN9SE&feature=c4-overview&list=UUfY8sl5Q6VKndz0nLaGygPw
 # This was worked out by The Raspberry Pi Guy! www.youtube.com/theraspberrypiguy
+set -e
 
-sudo apt-get install git-core -y
-sudo apt-get install python-setuptools -y
-sudo apt-get install python-dev -y
-sudo apt-get install python-imaging -y
-sudo apt-get install python-dev python-pip
+sudo apt-get install -y \
+  git-core \
+  python-setuptools \
+  python-imaging \
+  python-dev \
+  python-pip
+  
 git clone git://git.drogon.net/wiringPi
 cd wiringPi
 sudo ./build
